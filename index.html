@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header>
+    <a href="./highscores.html">highscores</a>
+  </header>
+  <body>
+    <p>Time: <span id="time">0</span></p>
+    <div class="wrapper">
+      <header>
+        <h1>Coding Quiz</h1>
+      </header>
+      <div class="card start">
+        <div class="card-header">
+          <h2 id="question">Coding Quiz</h2>
+          
+        </div>
+        <div class="card-body">
+            <button id="answer1" class="btn answer hide"></button>
+            <button id="answer2" class="btn answer hide"></button>
+            <button id="answer3" class="btn answer hide"></button>
+            <button id="answer4" class="btn answer hide"></button>
+        </div>
+        <div class="card-footer">
+          <button id="start" class="btn">Start Quiz</button>
+          <button id="next" class="btn hide">Next Question</button>
+
+        </div>
+      </div>
+      <div class="card final"><div class="card-header">
+      <h2>Save Initials</h2>
+      <p id="points"></p>
+
+      </div>
+    <div class="card-body">
+      <form action="">
+        <input type="text" class="form-control" placeholder="enter your initials">
+        <button type="submit" class="btn btn primary mt-2">Submit</button>
+      </form>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
